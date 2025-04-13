@@ -1,0 +1,45 @@
+.add-bus-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-bus-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-bus-form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-bus-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-bus-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-bus-form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-bus-form button:hover {
+    background: #0056b3;
+  }
+  
